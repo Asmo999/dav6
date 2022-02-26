@@ -1,0 +1,35 @@
+.img1 {
+	height: 970px;
+	width: 100%;
+	position: absolute;
+}
+body {
+	margin: 0px;
+}
+.div1 {
+	width: 1900px;
+	height: 1000px;
+	position: relative	;
+}
+.img2 {
+	position: absolute;
+	right: 0;
+	bottom: 10%;
+	animation: mymove 7s 1;
+}
+@keyframes mymove {
+	from {right: 0px;}
+	to {right: 1300px;}
+}
+.img3 {
+	position: absolute;
+	right: 20%;
+	bottom: 10%;
+	animation: mymove1 5s 1;
+	width: 30%;
+	height: 30%;
+}
+@keyframes mymove1 {
+	from {right: 20%;}
+	to {right: 1300px;}
+}
