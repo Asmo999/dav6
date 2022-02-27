@@ -15,21 +15,34 @@ body {
 	position: absolute;
 	right: 0;
 	bottom: 10%;
-	animation: mymove 7s 1;
+	animation: mymove 5s infinite;
 }
 @keyframes mymove {
 	from {right: 0px;}
-	to {right: 1300px;}
+	to {right: 1100px;}
 }
 .img3 {
 	position: absolute;
 	right: 20%;
 	bottom: 10%;
-	animation: mymove1 5s 1;
+	animation: mymove1 5s infinite;
 	width: 30%;
 	height: 30%;
 }
 @keyframes mymove1 {
 	from {right: 20%;}
 	to {right: 1300px;}
+}
+.img4{
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	right: 30%;
+	top: 0;
+	transform: rotate(120deg);
+	animation: mymove2 5s infinite;
+}
+@keyframes mymove2{
+	0%{right: 200px;
+		top: -200px;}
 }
